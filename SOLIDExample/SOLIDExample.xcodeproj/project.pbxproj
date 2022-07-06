@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5BCA6C1C485B2E004EB7E6 /* ServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA6B1C485B2E004EB7E6 /* ServiceScheduler.swift */; };
+		2F5BCA711C485E93004EB7E6 /* NotSOLIDRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA701C485E93004EB7E6 /* NotSOLIDRectangle.swift */; };
+		2F5BCA731C485EEA004EB7E6 /* NotSOLIDSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA721C485EEA004EB7E6 /* NotSOLIDSquare.swift */; };
+		2F5BCA751C486340004EB7E6 /* SOLIDShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA741C486340004EB7E6 /* SOLIDShape.swift */; };
+		2F5BCA771C486358004EB7E6 /* SOLIDRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA761C486358004EB7E6 /* SOLIDRectangle.swift */; };
+		2F5BCA791C48648B004EB7E6 /* SOLIDSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA781C48648B004EB7E6 /* SOLIDSquare.swift */; };
+		2F5BCA801C486ADD004EB7E6 /* NotSOLIDConsoleATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA7F1C486ADD004EB7E6 /* NotSOLIDConsoleATM.swift */; };
+		2F5BCA841C486B8F004EB7E6 /* NotSOLIDDepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA831C486B8F004EB7E6 /* NotSOLIDDepositTransaction.swift */; };
+		2F5BCA881C487145004EB7E6 /* DepositUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA871C487145004EB7E6 /* DepositUI.swift */; };
+		2F5BCA8A1C487194004EB7E6 /* NotSOLIDATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA891C487194004EB7E6 /* NotSOLIDATM.swift */; };
+		2F5BCA8C1C4871D6004EB7E6 /* WithdrawalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA8B1C4871D6004EB7E6 /* WithdrawalUI.swift */; };
+		2F5BCA8E1C4871F6004EB7E6 /* TransferUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA8D1C4871F6004EB7E6 /* TransferUI.swift */; };
+		2F5BCA901C487210004EB7E6 /* SOLIDATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA8F1C487210004EB7E6 /* SOLIDATM.swift */; };
+		2F5BCA921C487255004EB7E6 /* SOLIDDepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA911C487255004EB7E6 /* SOLIDDepositTransaction.swift */; };
+		2F5BCA941C48727D004EB7E6 /* SOLIDDepositUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA931C48727D004EB7E6 /* SOLIDDepositUI.swift */; };
+		2F5BCA961C4962DB004EB7E6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCA951C4962DB004EB7E6 /* Transaction.swift */; };
+		2F73015D1C4575D2009932F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73015C1C4575D2009932F8 /* AppDelegate.swift */; };
+		2F73015F1C4575D2009932F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73015E1C4575D2009932F8 /* ViewController.swift */; };
+		2F7301621C4575D2009932F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7301601C4575D2009932F8 /* Main.storyboard */; };
+		2F7301641C4575D2009932F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7301631C4575D2009932F8 /* Assets.xcassets */; };
+		2F7301671C4575D2009932F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7301651C4575D2009932F8 /* LaunchScreen.storyboard */; };
+		2F7301721C4575D2009932F8 /* SOLIDExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301711C4575D2009932F8 /* SOLIDExampleTests.swift */; };
+		2F7301811C457796009932F8 /* NotSOLIDServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301801C457796009932F8 /* NotSOLIDServiceScheduler.swift */; };
+		2F7301831C4579C4009932F8 /* NotSOLIDTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301821C4579C4009932F8 /* NotSOLIDTimelineService.swift */; };
+		2F7301851C4579DF009932F8 /* NotSOLIDProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301841C4579DF009932F8 /* NotSOLIDProfileService.swift */; };
+		2F73018B1C457AF1009932F8 /* SOLIDServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73018A1C457AF1009932F8 /* SOLIDServiceScheduler.swift */; };
+		2F73018D1C458C98009932F8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73018C1C458C98009932F8 /* Timer.swift */; };
+		2F73018F1C458CCD009932F8 /* SOLIDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73018E1C458CCD009932F8 /* SOLIDTimer.swift */; };
+		2F7301911C458D0C009932F8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301901C458D0C009932F8 /* Service.swift */; };
+		2F7301931C458F86009932F8 /* SOLIDTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301921C458F86009932F8 /* SOLIDTimelineService.swift */; };
+		2F7301951C458FA0009932F8 /* SOLIDProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301941C458FA0009932F8 /* SOLIDProfileService.swift */; };
+		2F7301971C458FCA009932F8 /* SOLIDServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301961C458FCA009932F8 /* SOLIDServiceFactory.swift */; };
+		2F7301991C458FF2009932F8 /* SOLIDSchedulerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7301981C458FF2009932F8 /* SOLIDSchedulerFactory.swift */; };
+		2F73019B1C45902A009932F8 /* NotSOLIDClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73019A1C45902A009932F8 /* NotSOLIDClient.swift */; };
+		2F73019D1C45906A009932F8 /* SOLIDClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73019C1C45906A009932F8 /* SOLIDClient.swift */; };
+		2F73019F1C459105009932F8 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73019E1C459105009932F8 /* Client.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F73016E1C4575D2009932F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7301511C4575D2009932F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7301581C4575D2009932F8;
+			remoteInfo = SOLIDExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F5BCA6B1C485B2E004EB7E6 /* ServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceScheduler.swift; sourceTree = "<group>"; };
+		2F5BCA701C485E93004EB7E6 /* NotSOLIDRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDRectangle.swift; sourceTree = "<group>"; };
+		2F5BCA721C485EEA004EB7E6 /* NotSOLIDSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDSquare.swift; sourceTree = "<group>"; };
+		2F5BCA741C486340004EB7E6 /* SOLIDShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDShape.swift; sourceTree = "<group>"; };
+		2F5BCA761C486358004EB7E6 /* SOLIDRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDRectangle.swift; sourceTree = "<group>"; };
+		2F5BCA781C48648B004EB7E6 /* SOLIDSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDSquare.swift; sourceTree = "<group>"; };
+		2F5BCA7F1C486ADD004EB7E6 /* NotSOLIDConsoleATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDConsoleATM.swift; sourceTree = "<group>"; };
+		2F5BCA831C486B8F004EB7E6 /* NotSOLIDDepositTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDDepositTransaction.swift; sourceTree = "<group>"; };
+		2F5BCA871C487145004EB7E6 /* DepositUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositUI.swift; sourceTree = "<group>"; };
+		2F5BCA891C487194004EB7E6 /* NotSOLIDATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDATM.swift; sourceTree = "<group>"; };
+		2F5BCA8B1C4871D6004EB7E6 /* WithdrawalUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawalUI.swift; sourceTree = "<group>"; };
+		2F5BCA8D1C4871F6004EB7E6 /* TransferUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferUI.swift; sourceTree = "<group>"; };
+		2F5BCA8F1C487210004EB7E6 /* SOLIDATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDATM.swift; sourceTree = "<group>"; };
+		2F5BCA911C487255004EB7E6 /* SOLIDDepositTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDDepositTransaction.swift; sourceTree = "<group>"; };
+		2F5BCA931C48727D004EB7E6 /* SOLIDDepositUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDDepositUI.swift; sourceTree = "<group>"; };
+		2F5BCA951C4962DB004EB7E6 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		2F7301591C4575D2009932F8 /* SOLIDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLIDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F73015C1C4575D2009932F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F73015E1C4575D2009932F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F7301611C4575D2009932F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F7301631C4575D2009932F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7301661C4575D2009932F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7301681C4575D2009932F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F73016D1C4575D2009932F8 /* SOLIDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLIDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7301711C4575D2009932F8 /* SOLIDExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLIDExampleTests.swift; sourceTree = "<group>"; };
+		2F7301731C4575D2009932F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7301801C457796009932F8 /* NotSOLIDServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDServiceScheduler.swift; sourceTree = "<group>"; };
+		2F7301821C4579C4009932F8 /* NotSOLIDTimelineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDTimelineService.swift; sourceTree = "<group>"; };
+		2F7301841C4579DF009932F8 /* NotSOLIDProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDProfileService.swift; sourceTree = "<group>"; };
+		2F73018A1C457AF1009932F8 /* SOLIDServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDServiceScheduler.swift; sourceTree = "<group>"; };
+		2F73018C1C458C98009932F8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		2F73018E1C458CCD009932F8 /* SOLIDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDTimer.swift; sourceTree = "<group>"; };
+		2F7301901C458D0C009932F8 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2F7301921C458F86009932F8 /* SOLIDTimelineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDTimelineService.swift; sourceTree = "<group>"; };
+		2F7301941C458FA0009932F8 /* SOLIDProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDProfileService.swift; sourceTree = "<group>"; };
+		2F7301961C458FCA009932F8 /* SOLIDServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDServiceFactory.swift; sourceTree = "<group>"; };
+		2F7301981C458FF2009932F8 /* SOLIDSchedulerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDSchedulerFactory.swift; sourceTree = "<group>"; };
+		2F73019A1C45902A009932F8 /* NotSOLIDClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDClient.swift; sourceTree = "<group>"; };
+		2F73019C1C45906A009932F8 /* SOLIDClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDClient.swift; sourceTree = "<group>"; };
+		2F73019E1C459105009932F8 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7301561C4575D2009932F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F73016A1C4575D2009932F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5BCA6D1C485C1A004EB7E6 /* SquareRectangleExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA6E1C485D6C004EB7E6 /* NotSOLID */,
+				2F5BCA6F1C485D6C004EB7E6 /* SOLID */,
+			);
+			path = SquareRectangleExample;
+			sourceTree = "<group>";
+		};
+		2F5BCA6E1C485D6C004EB7E6 /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA701C485E93004EB7E6 /* NotSOLIDRectangle.swift */,
+				2F5BCA721C485EEA004EB7E6 /* NotSOLIDSquare.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+		2F5BCA6F1C485D6C004EB7E6 /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA741C486340004EB7E6 /* SOLIDShape.swift */,
+				2F5BCA761C486358004EB7E6 /* SOLIDRectangle.swift */,
+				2F5BCA781C48648B004EB7E6 /* SOLIDSquare.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		2F5BCA7A1C4869CA004EB7E6 /* ATMExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA951C4962DB004EB7E6 /* Transaction.swift */,
+				2F5BCA7B1C4869D9004EB7E6 /* NotSOLID */,
+				2F5BCA7C1C4869D9004EB7E6 /* SOLID */,
+			);
+			path = ATMExample;
+			sourceTree = "<group>";
+		};
+		2F5BCA7B1C4869D9004EB7E6 /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA891C487194004EB7E6 /* NotSOLIDATM.swift */,
+				2F5BCA831C486B8F004EB7E6 /* NotSOLIDDepositTransaction.swift */,
+				2F5BCA7F1C486ADD004EB7E6 /* NotSOLIDConsoleATM.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+		2F5BCA7C1C4869D9004EB7E6 /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F5BCA8F1C487210004EB7E6 /* SOLIDATM.swift */,
+				2F5BCA931C48727D004EB7E6 /* SOLIDDepositUI.swift */,
+				2F5BCA911C487255004EB7E6 /* SOLIDDepositTransaction.swift */,
+				2F5BCA871C487145004EB7E6 /* DepositUI.swift */,
+				2F5BCA8D1C4871F6004EB7E6 /* TransferUI.swift */,
+				2F5BCA8B1C4871D6004EB7E6 /* WithdrawalUI.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		2F7301501C4575D2009932F8 = {
+			isa = PBXGroup;
+			children = (
+				2F73015B1C4575D2009932F8 /* SOLIDExample */,
+				2F7301701C4575D2009932F8 /* SOLIDExampleTests */,
+				2F73015A1C4575D2009932F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F73015A1C4575D2009932F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7301591C4575D2009932F8 /* SOLIDExample.app */,
+				2F73016D1C4575D2009932F8 /* SOLIDExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F73015B1C4575D2009932F8 /* SOLIDExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F73017C1C457658009932F8 /* TwitterExample */,
+				2F5BCA6D1C485C1A004EB7E6 /* SquareRectangleExample */,
+				2F5BCA7A1C4869CA004EB7E6 /* ATMExample */,
+				2F73015C1C4575D2009932F8 /* AppDelegate.swift */,
+				2F73015E1C4575D2009932F8 /* ViewController.swift */,
+				2F7301601C4575D2009932F8 /* Main.storyboard */,
+				2F7301631C4575D2009932F8 /* Assets.xcassets */,
+				2F7301651C4575D2009932F8 /* LaunchScreen.storyboard */,
+				2F7301681C4575D2009932F8 /* Info.plist */,
+			);
+			path = SOLIDExample;
+			sourceTree = "<group>";
+		};
+		2F7301701C4575D2009932F8 /* SOLIDExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7301711C4575D2009932F8 /* SOLIDExampleTests.swift */,
+				2F7301731C4575D2009932F8 /* Info.plist */,
+			);
+			path = SOLIDExampleTests;
+			sourceTree = "<group>";
+		};
+		2F73017C1C457658009932F8 /* TwitterExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F73019E1C459105009932F8 /* Client.swift */,
+				2F73017D1C457746009932F8 /* NotSOLID */,
+				2F7301871C457ACB009932F8 /* SOLID */,
+			);
+			path = TwitterExample;
+			sourceTree = "<group>";
+		};
+		2F73017D1C457746009932F8 /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F73019A1C45902A009932F8 /* NotSOLIDClient.swift */,
+				2F7301801C457796009932F8 /* NotSOLIDServiceScheduler.swift */,
+				2F7301821C4579C4009932F8 /* NotSOLIDTimelineService.swift */,
+				2F7301841C4579DF009932F8 /* NotSOLIDProfileService.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+		2F7301871C457ACB009932F8 /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				2F73019C1C45906A009932F8 /* SOLIDClient.swift */,
+				2F73018A1C457AF1009932F8 /* SOLIDServiceScheduler.swift */,
+				2F7301921C458F86009932F8 /* SOLIDTimelineService.swift */,
+				2F7301941C458FA0009932F8 /* SOLIDProfileService.swift */,
+				2F73018E1C458CCD009932F8 /* SOLIDTimer.swift */,
+				2F7301981C458FF2009932F8 /* SOLIDSchedulerFactory.swift */,
+				2F7301961C458FCA009932F8 /* SOLIDServiceFactory.swift */,
+				2F5BCA6B1C485B2E004EB7E6 /* ServiceScheduler.swift */,
+				2F7301901C458D0C009932F8 /* Service.swift */,
+				2F73018C1C458C98009932F8 /* Timer.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7301581C4575D2009932F8 /* SOLIDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7301761C4575D2009932F8 /* Build configuration list for PBXNativeTarget "SOLIDExample" */;
+			buildPhases = (
+				2F7301551C4575D2009932F8 /* Sources */,
+				2F7301561C4575D2009932F8 /* Frameworks */,
+				2F7301571C4575D2009932F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOLIDExample;
+			productName = SOLIDExample;
+			productReference = 2F7301591C4575D2009932F8 /* SOLIDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F73016C1C4575D2009932F8 /* SOLIDExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7301791C4575D2009932F8 /* Build configuration list for PBXNativeTarget "SOLIDExampleTests" */;
+			buildPhases = (
+				2F7301691C4575D2009932F8 /* Sources */,
+				2F73016A1C4575D2009932F8 /* Frameworks */,
+				2F73016B1C4575D2009932F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F73016F1C4575D2009932F8 /* PBXTargetDependency */,
+			);
+			name = SOLIDExampleTests;
+			productName = SOLIDExampleTests;
+			productReference = 2F73016D1C4575D2009932F8 /* SOLIDExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7301511C4575D2009932F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Prolific Interactive";
+				TargetAttributes = {
+					2F7301581C4575D2009932F8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2F73016C1C4575D2009932F8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2F7301581C4575D2009932F8;
+					};
+				};
+			};
+			buildConfigurationList = 2F7301541C4575D2009932F8 /* Build configuration list for PBXProject "SOLIDExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7301501C4575D2009932F8;
+			productRefGroup = 2F73015A1C4575D2009932F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7301581C4575D2009932F8 /* SOLIDExample */,
+				2F73016C1C4575D2009932F8 /* SOLIDExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7301571C4575D2009932F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7301671C4575D2009932F8 /* LaunchScreen.storyboard in Resources */,
+				2F7301641C4575D2009932F8 /* Assets.xcassets in Resources */,
+				2F7301621C4575D2009932F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F73016B1C4575D2009932F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7301551C4575D2009932F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5BCA941C48727D004EB7E6 /* SOLIDDepositUI.swift in Sources */,
+				2F5BCA8E1C4871F6004EB7E6 /* TransferUI.swift in Sources */,
+				2F5BCA6C1C485B2E004EB7E6 /* ServiceScheduler.swift in Sources */,
+				2F7301931C458F86009932F8 /* SOLIDTimelineService.swift in Sources */,
+				2F7301851C4579DF009932F8 /* NotSOLIDProfileService.swift in Sources */,
+				2F5BCA751C486340004EB7E6 /* SOLIDShape.swift in Sources */,
+				2F5BCA711C485E93004EB7E6 /* NotSOLIDRectangle.swift in Sources */,
+				2F5BCA901C487210004EB7E6 /* SOLIDATM.swift in Sources */,
+				2F7301831C4579C4009932F8 /* NotSOLIDTimelineService.swift in Sources */,
+				2F73018D1C458C98009932F8 /* Timer.swift in Sources */,
+				2F7301971C458FCA009932F8 /* SOLIDServiceFactory.swift in Sources */,
+				2F5BCA961C4962DB004EB7E6 /* Transaction.swift in Sources */,
+				2F7301951C458FA0009932F8 /* SOLIDProfileService.swift in Sources */,
+				2F73019F1C459105009932F8 /* Client.swift in Sources */,
+				2F5BCA791C48648B004EB7E6 /* SOLIDSquare.swift in Sources */,
+				2F5BCA801C486ADD004EB7E6 /* NotSOLIDConsoleATM.swift in Sources */,
+				2F73019D1C45906A009932F8 /* SOLIDClient.swift in Sources */,
+				2F7301991C458FF2009932F8 /* SOLIDSchedulerFactory.swift in Sources */,
+				2F73015F1C4575D2009932F8 /* ViewController.swift in Sources */,
+				2F73019B1C45902A009932F8 /* NotSOLIDClient.swift in Sources */,
+				2F5BCA8A1C487194004EB7E6 /* NotSOLIDATM.swift in Sources */,
+				2F73018B1C457AF1009932F8 /* SOLIDServiceScheduler.swift in Sources */,
+				2F5BCA881C487145004EB7E6 /* DepositUI.swift in Sources */,
+				2F5BCA771C486358004EB7E6 /* SOLIDRectangle.swift in Sources */,
+				2F7301911C458D0C009932F8 /* Service.swift in Sources */,
+				2F7301811C457796009932F8 /* NotSOLIDServiceScheduler.swift in Sources */,
+				2F5BCA731C485EEA004EB7E6 /* NotSOLIDSquare.swift in Sources */,
+				2F5BCA921C487255004EB7E6 /* SOLIDDepositTransaction.swift in Sources */,
+				2F73015D1C4575D2009932F8 /* AppDelegate.swift in Sources */,
+				2F5BCA841C486B8F004EB7E6 /* NotSOLIDDepositTransaction.swift in Sources */,
+				2F5BCA8C1C4871D6004EB7E6 /* WithdrawalUI.swift in Sources */,
+				2F73018F1C458CCD009932F8 /* SOLIDTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7301691C4575D2009932F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7301721C4575D2009932F8 /* SOLIDExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F73016F1C4575D2009932F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7301581C4575D2009932F8 /* SOLIDExample */;
+			targetProxy = 2F73016E1C4575D2009932F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F7301601C4575D2009932F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7301611C4575D2009932F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F7301651C4575D2009932F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7301661C4575D2009932F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7301741C4575D2009932F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F7301751C4575D2009932F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7301771C4575D2009932F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOLIDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.SOLIDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F7301781C4575D2009932F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOLIDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.SOLIDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F73017A1C4575D2009932F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOLIDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.SOLIDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLIDExample.app/SOLIDExample";
+			};
+			name = Debug;
+		};
+		2F73017B1C4575D2009932F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOLIDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.SOLIDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLIDExample.app/SOLIDExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7301541C4575D2009932F8 /* Build configuration list for PBXProject "SOLIDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7301741C4575D2009932F8 /* Debug */,
+				2F7301751C4575D2009932F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7301761C4575D2009932F8 /* Build configuration list for PBXNativeTarget "SOLIDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7301771C4575D2009932F8 /* Debug */,
+				2F7301781C4575D2009932F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7301791C4575D2009932F8 /* Build configuration list for PBXNativeTarget "SOLIDExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F73017A1C4575D2009932F8 /* Debug */,
+				2F73017B1C4575D2009932F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7301511C4575D2009932F8 /* Project object */;
+}
